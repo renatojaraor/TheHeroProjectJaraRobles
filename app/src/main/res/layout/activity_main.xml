@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8ECE0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:background="#B2EFE8"
+        android:gravity="center_horizontal"
+        android:text="Aplicaciones Móviles y Sistemas Telemáticos"
+        android:textSize="36sp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:background="#B5F1E3"
+        android:gravity="center"
+        android:text="Examen Práctico"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/desarrolladores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Renato Jara y Andres Robles"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_heroe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:ems="10"
+        android:gravity="center|start|center_vertical"
+        android:hint="Búsqueda por Nombre"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_heroe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:background="#309C86"
+        android:onClick="buscarHeroe"
+        android:text="Buscar Héroes"
+        app:backgroundTint="#02593D" />
+
+</LinearLayout>

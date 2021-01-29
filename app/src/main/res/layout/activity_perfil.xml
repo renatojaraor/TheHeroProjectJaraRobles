@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCF6AB"
+    android:orientation="vertical"
+    tools:context=".Perfil">
+
+    <TextView
+        android:id="@+id/tv_sup"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Nombre de Heroe: "
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tv_completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Completo:"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/BarChart"
+        android:layout_width="391dp"
+        android:layout_height="525dp"
+        android:layout_gravity="center"
+        android:layout_margin="21dp"
+        android:background="#A1FF96" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Volver"
+        android:text="Volver"
+        app:backgroundTint="#347803" />
+
+</LinearLayout>
